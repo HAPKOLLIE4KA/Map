@@ -72,6 +72,18 @@ for (let textMenu of textMenuList)
             event.target.style.fontSize = themeStyle.defaultFontSize
         }
     )
+    
+    //события для мобильных устройств
+    textMenu.addEventListener("touchstart", 
+    (event) => {
+        event.target.style.fontSize = themeStyle.mousedownFontSize
+    })
+
+    textMenu.addEventListener("touchend", 
+    (event) => {
+        event.target.style.fontSize = themeStyle.defaultFontSize
+    })
+
 
 }
 
