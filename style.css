@@ -135,7 +135,7 @@ hr {
   width: 0px;
 }
 
-@media (max-width: 768px)  {
+@media screen and (max-device-width: 480px)  {
   .map {
     width: 461px;
     height: 600px;
