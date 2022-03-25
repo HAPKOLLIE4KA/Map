@@ -135,4 +135,24 @@ hr {
   width: 0px;
 }
 
+@media screen {
+  .map {
+    width: 461px;
+    height: 600px;
+    margin: 35px;
+    margin-left: 29px;
+    /* padding: 10px; */
+}
+.menu {
+  width: 320px;
+  height: 600px;
+  margin: 35px;
+  margin-left: 33px;
+  box-shadow: 0px 7px 30px silver;
+  border-radius: 17px;
+  overflow-y: scroll;
+}
+
+
+}
 
